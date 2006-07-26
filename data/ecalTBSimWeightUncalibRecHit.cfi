@@ -1,0 +1,9 @@
+  # producer of rechits starting from tb simulation
+  module ecalTBSimWeightUncalibRecHit = EcalTBWeightUncalibRecHitProducer {
+   string digiProducer             = "ecaldigi"
+   string EBdigiCollection         = ""
+   string EBhitCollection          = "EcalUncalibRecHitsEB"            
+   string tdcRecInfoProducer       = "ecalTBSimTDCReconstructor"       
+   string tdcRecInfoCollection     = "EcalTBTDCRecInfo"                
+   int32  nbTimeBin=25                           
+  }

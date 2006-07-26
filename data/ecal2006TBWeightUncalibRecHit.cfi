@@ -1,0 +1,10 @@
+ module ecal2006TBWeightUncalibRecHit = EcalTBWeightUncalibRecHitProducer 
+      {	
+   	  string digiProducer   = "ecalTBunpack"
+          string EBdigiCollection = ""
+          string tdcRecInfoProducer   = "ecal2006TBTDCReconstructor"
+          string tdcRecInfoCollection = "EcalTBTDCRecInfo"
+          string EBhitCollection  = "EcalUncalibRecHitsEB"
+          int32  nbTimeBin=25		
+          untracked bool use2004OffsetConvention=false
+       }
